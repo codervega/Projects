@@ -1,0 +1,94 @@
+.logo img{
+  width: 80px;
+  padding: 0px 5px;
+}
+nav ul li {
+  list-style-type: none;
+ font-family: 'Poppins', sans-serif;
+ padding: 12px;
+  
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: khaki;
+
+}
+nav ul {
+  display: flex;
+  height: 89px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  align-items: center;
+  
+}
+.logo{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+.container{
+  min-height: 70vh;
+  background-color: rgba(0, 0, 0, 0.616);
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  margin: 23px auto;
+  width: 70%;
+  border-radius: 12px;
+  padding: 34px;
+  background-image: url(https://images.macrumors.com/t/vMbr05RQ60tz7V_zS5UEO9SbGR0=/1600x900/smart/article-new/2018/05/apple-music-note.jpg);
+}
+.bottom{
+  position: sticky;
+  /* height: 90px; */
+  background: BLACK;
+  bottom : 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+#myProgerssbar{
+  width: 80vw;
+}
+i{
+  padding: 10px;
+  cursor: pointer;
+}
+.songItem{
+  height: 50px;
+  display: flex;
+  background-color: white;
+  width: 80%;
+  color: black;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+  margin: 12px 0;
+
+}
+.songItem img{
+  width: 43px;
+  margin: 0 23px;
+  border-radius: 43px;
+}
+.timestamp i{
+  cursor: pointer;
+}
+.songitemcontainer{
+  margin-top: 10px;
+}
+.songinfo img{
+  width: 20px;
+  margin-right: 20px;
+  opacity: 0;
+  transition: opacity is ease-in;
+}
+.songinfo{
+  position: absolute;
+  left: 10vw;
+}
